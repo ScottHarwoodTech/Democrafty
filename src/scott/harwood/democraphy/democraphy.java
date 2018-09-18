@@ -28,6 +28,7 @@ public class democraphy extends JavaPlugin {
             //start parsing json
             JSONArray commands = loadData(".\\plugins\\Democrafty-config.json");
             try {
+
                 Field spigotCM = Bukkit.getServer().getClass().getDeclaredField("commandMap");
                 spigotCM.setAccessible(true);
                 CommandMap cm = (CommandMap) spigotCM.get(Bukkit.getServer());
@@ -40,9 +41,12 @@ public class democraphy extends JavaPlugin {
                     Long NEvalTO = (Long) c.get("NotEvaluatedTimeOut");
                     String EC = (String) c.get("ExecuteCommand");//command executed on pass
                     long vTime = (long)c.get("VoteTime");
-                    cm.register(IC, new CommandExecuter(IC, PassP, EP, EvalTO, NEvalTO, EC, votes,this,vTime));
+                    String cmdMessage = (String) c.get("CommandMessage");
+
+                    cm.register(IC, new CommandExecuter(IC, PassP, EP, EvalTO, NEvalTO, EC, votes,this,vTime,cmdMessage));
 
                 }
+                this.getCommand("vote").setExecutor(votes);
             }
             catch (Exception e)
             {

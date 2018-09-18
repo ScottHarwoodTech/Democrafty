@@ -13,7 +13,10 @@ public class CommandExecuter extends BukkitCommand {
     private String ExecuteCmd;
     public voteHandler votes;
     private JavaPlugin m;
-    public CommandExecuter(String name, double PassPercentage, double EvaluationPercentage, long EvaluatedTimeOut, long NotEvaluatedTimeOut, String ExecuteCommand, voteHandler votes_, JavaPlugin master,long vTime)
+    public String name;
+    public boolean LockedOut;
+    private String cmdMessage;
+    public CommandExecuter(String name, double PassPercentage, double EvaluationPercentage, long EvaluatedTimeOut, long NotEvaluatedTimeOut, String ExecuteCommand, voteHandler votes_, JavaPlugin master,long vTime,String cmdMessage)
     {
         super(name);
         PassP = PassPercentage;
@@ -24,16 +27,23 @@ public class CommandExecuter extends BukkitCommand {
         votes = votes_;
         votetime = vTime;
         m = master;
+        this.name = name;
+        this.cmdMessage = cmdMessage;
     }
     @Override
     public boolean execute(CommandSender sender, String alias, String[] args)
     {
+        if (!LockedOut)
+        {
         if (votes.task_running)//checks if there is a prexisting task running
         {
             return false;
         }
         votes.task_running = true;//tells the voteing command that there is a poll going
-        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(m, new PollCalculator(PassP,EvalP,EvalTO,NotEvalTO,ExecuteCmd,votes,m),votetime);
+            Bukkit.getServer().broadcastMessage(cmdMessage);
+        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(m, new PollCalculator(this,PassP,EvalP,EvalTO,NotEvalTO,ExecuteCmd,votes,m),votetime);
         return true;
+    }
+    return false;
     }
 }

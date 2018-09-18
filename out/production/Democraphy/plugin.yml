@@ -2,6 +2,7 @@ name: Democraphy
 version: 0.1
 author: scott harwood
 main: scott.harwood.democraphy.democraphy
-vote:
-  description: used for voting in polls
-  usage: /vote y|n
+commands:
+  vote:
+    description: used for voting in polls
+    usage: /vote y|n
