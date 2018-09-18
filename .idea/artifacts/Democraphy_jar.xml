@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Democraphy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Democraphy_jar</output-path>
+    <root id="archive" name="Democraphy.jar">
+      <element id="module-output" name="Democraphy" />
+      <element id="extracted-dir" path="E:/Spigot/Spigot-API/target/spigot-api-1.13.1-R0.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/Democrafty-config.json" />
+    </root>
+  </artifact>
+</component>

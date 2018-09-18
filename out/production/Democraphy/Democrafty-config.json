@@ -1,0 +1,13 @@
+{
+  "Commands":[
+    {
+      "InitiateCommand": "set-weather-clear",
+      "PassPercentage": 0.1,
+      "EvaluationPercentage": 0.1,
+      "EvaluatedTimeOut": 10,
+      "NotEvaluatedTimeOut": 1,
+      "ExecuteCommand": "set weather clear"
+    }
+
+  ]
+}
