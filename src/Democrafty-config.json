@@ -2,6 +2,7 @@
   "Commands":[
     {
       "InitiateCommand": "set-weather-clear",
+      "VoteTime":100,
       "PassPercentage": 0.1,
       "EvaluationPercentage": 0.1,
       "EvaluatedTimeOut": 10,

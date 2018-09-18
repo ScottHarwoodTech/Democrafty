@@ -14,7 +14,28 @@ public class voteHandler implements CommandExecutor {
     {
         //start the timeout possibly with a bar on the screen
         //check if vote running
-        //when the time out
+        if (task_running)
+        {
+            if (args[0] == "Y" || args[0] == "y")
+            {
+                Yay++;//one vote for yes
+                //message to say that you voted
+                
+            }
+            else if (args[0] == "n" || args[0] == "N")
+            {
+                Neigh++;
+                //message neg vote
+            }
+            else
+            {
+                //message vote arg not right
+
+            }
+        }
+        else{
+            //message task not running
+        }
         return false;
     }
 

@@ -39,7 +39,8 @@ public class democraphy extends JavaPlugin {
                     Long EvalTO = (Long) c.get("EvaluatedTimeOut");//gets how long to wait after command executed before can try again
                     Long NEvalTO = (Long) c.get("NotEvaluatedTimeOut");
                     String EC = (String) c.get("ExecuteCommand");//command executed on pass
-                    cm.register(IC, new CommandExecuter(IC, PassP, EP, EvalTO, NEvalTO, EC, votes));
+                    long vTime = (long)c.get("VoteTime");
+                    cm.register(IC, new CommandExecuter(IC, PassP, EP, EvalTO, NEvalTO, EC, votes,this,vTime));
 
                 }
             }

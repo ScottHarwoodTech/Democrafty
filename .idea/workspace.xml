@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da10f342-d9d6-4119-b171-352fbc99ac9f" name="Default Changelist" comment="" />
+    <list default="true" id="da10f342-d9d6-4119-b171-352fbc99ac9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scott/harwood/democraphy/PollCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Democraphy_jar/Democraphy.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Democraphy_jar/Democraphy.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Democraphy/Democrafty-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Democraphy/Democrafty-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Democraphy/scott/harwood/democraphy/CommandExecuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Democraphy/scott/harwood/democraphy/CommandExecuter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Democraphy/scott/harwood/democraphy/democraphy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Democraphy/scott/harwood/democraphy/democraphy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Democrafty-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Democrafty-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,29 +54,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="json" value="2" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="JSON" value="2" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4468" />
-          <entry key="json" value="281" />
+          <entry key="java" value="6050" />
+          <entry key="json" value="300" />
           <entry key="yml" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4468" />
-          <entry key="JSON" value="281" />
+          <entry key="JAVA" value="6050" />
+          <entry key="JSON" value="300" />
           <entry key="YAML" value="143" />
         </counts>
       </usages-collector>
@@ -77,11 +89,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7168435">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="564">
-                  <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+                <state relative-caret-position="343">
+                  <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -92,8 +104,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
+                <state relative-caret-position="476">
+                  <caret line="28" column="77" lean-forward="true" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/PollCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="636">
+                  <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -113,8 +137,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                <state relative-caret-position="612">
+                  <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -129,8 +153,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Democrafty-config.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -146,6 +170,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java" root0="SKIP_INSPECTION" />
   </component>
@@ -154,11 +181,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/scott/harwood/democraphy.java" />
         <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/listener.java" />
-        <option value="$PROJECT_DIR$/src/Democrafty-config.json" />
-        <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java" />
+        <option value="$PROJECT_DIR$/src/Democrafty-config.json" />
         <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java" />
+        <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java" />
+        <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java" />
+        <option value="$PROJECT_DIR$/src/scott/harwood/democraphy/PollCalculator.java" />
       </list>
     </option>
   </component>
@@ -180,6 +208,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -241,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537270322834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537272697945" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SleepResetter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -313,12 +342,12 @@
       <workItem from="1537242427787" duration="2570000" />
       <workItem from="1537253789502" duration="74000" />
       <workItem from="1537253906553" duration="205000" />
-      <workItem from="1537254321822" duration="13468000" />
+      <workItem from="1537254321822" duration="15866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16977000" />
+    <option name="totallyTimeSpent" value="19375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,8 +360,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" weight="0.19616205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.19402985" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +380,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -411,17 +441,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="77" lean-forward="true" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Democrafty-config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/voteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="612">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -435,20 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/CommandExecuter.java">
+    <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/PollCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scott/harwood/democraphy/democraphy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="636">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
